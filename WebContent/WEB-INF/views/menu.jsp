@@ -8,7 +8,8 @@
 </head>
 <body>
 	<h2>Página inicial da Lista de Tarefas</h2>
-	<p>Bem vindo, ${usuario.login}</p>
+	<p>Bem vindo, ${usuario.login} <a href="logout">Sair do sistema</a></p>
+	
 	<a href="listaTarefas">Clique aqui para acessar a lista de tarefas</a>
 </body>
 </html>
